@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 class ReturnExcuse:
     def __init__(self):
-        print ('Title requested.')
+        print ('Excuse requested.')
 
     def getExcuse(self):
         content = self._getContent()
